@@ -12,7 +12,6 @@ import csv
 f = open('Test.csv', 'r')
 rdr = csv.reader (f)
 i = 0
-i = 1
 matrix = []
 for line in rdr:
     matrix.append(line)
